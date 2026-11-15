@@ -1,9 +1,6 @@
 {
 .appVersion = "4202";
 .formatVersion = 3;
-DisplayStrings = (
-"łŁ"
-);
 classes = (
 {
 automatic = 1;
@@ -13459,7 +13456,7 @@ unicode = 45;
 {
 color = 4;
 glyphname = endash;
-lastChange = "2026-07-07 12:15:32 +0000";
+lastChange = "2026-11-15 12:56:18 +0000";
 layers = (
 {
 layerId = m001;
@@ -13467,22 +13464,24 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(500,228,l),
-(500,328,l),
-(0,328,l),
-(0,228,l)
+(535,228,l),
+(535,328,l),
+(35,328,l),
+(35,228,l)
 );
 }
 );
-width = 500;
+width = 570;
 }
 );
+metricLeft = hyphen;
+metricRight = hyphen;
 unicode = 8211;
 },
 {
 color = 4;
 glyphname = emdash;
-lastChange = "2026-07-07 12:15:32 +0000";
+lastChange = "2026-11-15 12:56:21 +0000";
 layers = (
 {
 layerId = m001;
@@ -13490,16 +13489,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(750,228,l),
-(750,328,l),
-(0,328,l),
-(0,228,l)
+(785,228,l),
+(785,328,l),
+(35,328,l),
+(35,228,l)
 );
 }
 );
-width = 750;
+width = 820;
 }
 );
+metricLeft = hyphen;
+metricRight = hyphen;
 unicode = 8212;
 },
 {
@@ -13886,22 +13887,22 @@ unicode = 8218;
 {
 color = 4;
 glyphname = quotedblbase;
-lastChange = "2026-07-07 12:15:32 +0000";
+lastChange = "2026-11-15 12:52:24 +0000";
 layers = (
 {
 layerId = m001;
 shapes = (
 {
 alignment = -1;
-pos = (47,-608);
+pos = (0,-608);
 ref = quotedblright;
 }
 );
-width = 457;
+width = 358;
 }
 );
-metricLeft = comma;
-metricRight = period;
+metricLeft = quoteright;
+metricRight = quoteright;
 unicode = 8222;
 },
 {
@@ -13951,7 +13952,7 @@ unicode = 8220;
 {
 color = 4;
 glyphname = quotedblright;
-lastChange = "2026-07-07 12:15:32 +0000";
+lastChange = "2026-11-15 12:54:10 +0000";
 layers = (
 {
 layerId = m001;
@@ -13990,6 +13991,8 @@ nodes = (
 width = 358;
 }
 );
+metricLeft = quoteright;
+metricRight = quoteright;
 unicode = 8221;
 },
 {
