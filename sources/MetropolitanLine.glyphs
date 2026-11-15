@@ -5747,7 +5747,7 @@ color = 4;
 glyphname = dcaron;
 kernLeft = o;
 kernRight = d;
-lastChange = "2026-07-01 11:37:32 +0000";
+lastChange = "2026-11-15 12:56:58 +0000";
 layers = (
 {
 layerId = m001;
@@ -5757,7 +5757,6 @@ alignment = -1;
 ref = d;
 },
 {
-alignment = -1;
 pos = (497,0);
 ref = caroncomb.alt;
 }
@@ -7169,7 +7168,7 @@ color = 4;
 glyphname = lcaron;
 kernLeft = H;
 kernRight = l;
-lastChange = "2026-07-01 11:37:32 +0000";
+lastChange = "2026-11-15 12:57:00 +0000";
 layers = (
 {
 layerId = m001;
@@ -7179,7 +7178,6 @@ alignment = -1;
 ref = l;
 },
 {
-alignment = -1;
 pos = (165,0);
 ref = caroncomb.alt;
 }
@@ -8605,7 +8603,7 @@ color = 4;
 glyphname = t;
 kernLeft = t;
 kernRight = t;
-lastChange = "2026-07-07 13:14:31 +0000";
+lastChange = "2026-11-15 13:00:56 +0000";
 layers = (
 {
 anchors = (
@@ -8677,7 +8675,7 @@ color = 4;
 glyphname = tcaron;
 kernLeft = t;
 kernRight = t;
-lastChange = "2026-07-07 13:14:59 +0000";
+lastChange = "2026-11-15 13:01:10 +0000";
 layers = (
 {
 anchors = (
@@ -20192,6 +20190,7 @@ quotesingle = -20;
 "@MMK_R_jdotless" = 9;
 "@MMK_R_n" = 9;
 "@MMK_R_o" = -34;
+"@MMK_R_t" = 0;
 "@MMK_R_x" = 37;
 "@MMK_R_z" = 17;
 };
@@ -20251,7 +20250,18 @@ quotesingle = {
 "@MMK_R_three" = -20;
 };
 tcaron = {
-"@MMK_R_A" = -55;
+"@MMK_R_A" = 5;
+"@MMK_R_H" = 94;
+"@MMK_R_O" = 80;
+"@MMK_R_Y" = 120;
+"@MMK_R_f" = 60;
+"@MMK_R_idotless" = 89;
+"@MMK_R_jdotless" = 80;
+"@MMK_R_t" = 40;
+"@MMK_R_u" = 40;
+"@MMK_R_v" = 40;
+"@MMK_R_x" = 52;
+"@MMK_R_y" = 40;
 };
 };
 };
