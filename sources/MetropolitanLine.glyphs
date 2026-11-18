@@ -10229,7 +10229,7 @@ color = 5;
 glyphname = a.ss01;
 kernLeft = o;
 kernRight = u;
-lastChange = "2026-07-01 11:37:49 +0000";
+lastChange = "2026-11-18 11:24:41 +0000";
 layers = (
 {
 anchors = (
@@ -10247,7 +10247,7 @@ pos = (504,0);
 },
 {
 name = top;
-pos = (278,475);
+pos = (298,475);
 },
 {
 name = topright;
@@ -10307,11 +10307,210 @@ KernOnName = d;
 };
 },
 {
+color = 9;
+glyphname = aacute.ss01;
+kernLeft = a;
+kernRight = n;
+lastChange = "2026-11-18 11:24:41 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (231,0);
+ref = acutecomb;
+}
+);
+width = 555;
+}
+);
+},
+{
+color = 9;
+glyphname = abreve.ss01;
+kernLeft = a;
+kernRight = n;
+lastChange = "2026-11-18 11:24:41 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (103,0);
+ref = brevecomb;
+}
+);
+width = 555;
+}
+);
+},
+{
+color = 9;
+glyphname = acircumflex.ss01;
+kernLeft = a;
+kernRight = n;
+lastChange = "2026-11-18 11:24:41 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (105,0);
+ref = circumflexcomb;
+}
+);
+width = 555;
+}
+);
+metricRight = a;
+},
+{
+color = 9;
+glyphname = adieresis.ss01;
+kernLeft = a;
+kernRight = n;
+lastChange = "2026-11-18 11:24:41 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (110,0);
+ref = dieresiscomb;
+}
+);
+width = 555;
+}
+);
+},
+{
+color = 9;
+glyphname = agrave.ss01;
+kernLeft = a;
+kernRight = n;
+lastChange = "2026-11-18 11:24:41 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (143,0);
+ref = gravecomb;
+}
+);
+width = 555;
+}
+);
+},
+{
+color = 9;
+glyphname = amacron.ss01;
+kernLeft = a;
+kernRight = n;
+lastChange = "2026-11-18 11:24:41 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (124,0);
+ref = macroncomb;
+}
+);
+width = 555;
+}
+);
+},
+{
+color = 9;
+glyphname = aogonek.ss01;
+kernLeft = a;
+kernRight = n;
+lastChange = "2026-11-18 11:24:21 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (381,0);
+ref = ogonekcomb;
+}
+);
+width = 555;
+}
+);
+},
+{
+color = 9;
+glyphname = aring.ss01;
+kernLeft = a;
+kernRight = n;
+lastChange = "2026-11-18 11:24:41 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (175,0);
+ref = ringcomb;
+}
+);
+width = 555;
+}
+);
+},
+{
+color = 9;
+glyphname = atilde.ss01;
+kernLeft = a;
+kernRight = n;
+lastChange = "2026-11-18 11:24:41 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (93,0);
+ref = tildecomb;
+}
+);
+width = 555;
+}
+);
+},
+{
 color = 5;
 glyphname = g.ss01;
 kernLeft = g;
 kernRight = g;
-lastChange = "2026-07-02 07:22:07 +0000";
+lastChange = "2026-11-18 11:25:24 +0000";
 layers = (
 {
 anchors = (
@@ -10321,15 +10520,9 @@ pos = (217,-225);
 },
 {
 name = top;
-pos = (217,475);
+pos = (245,475);
 }
 );
-backgroundImage = {
-imagePath = "Images/g.ss01-Regular.tif";
-locked = 1;
-pos = (-50,-276);
-scale = (1.95,1.95);
-};
 guides = (
 {
 angle = 180;
@@ -10366,51 +10559,33 @@ nodes = (
 (417,-86,cs),
 (417,475,l),
 (411,475,l),
-(322,475,l),
-(257,475,l),
-(303,415,l),
-(322,415,l),
-(322,202,l),
-(253,178,l),
-(86,58,o),
-(10,-16,o),
-(10,-109,cs),
-(10,-191,o),
-(74,-235,o),
-(193,-235,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(107,-55,o),
-(165,28,o),
-(322,146,c),
+(324,475,l),
+(282,483,o),
+(250,485,o),
+(227,485,cs),
+(90,485,o),
+(29,388,o),
+(29,296,cs),
+(29,161,o),
+(137,91,o),
+(322,153,c),
 (322,-78,ls),
 (322,-134,o),
 (267,-150,o),
 (197,-150,cs),
 (147,-150,o),
 (107,-143,o),
-(107,-102,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(304,130,o),
-(405,206,o),
-(405,308,c),
-(373,464,l),
-(308,481,o),
-(259,485,o),
-(227,485,cs),
-(90,485,o),
-(29,388,o),
-(29,296,cs),
-(29,195,o),
-(90,130,o),
-(197,130,cs)
+(107,-102,cs),
+(107,-53,o),
+(171,36,o),
+(345,163,c),
+(208,145,l),
+(72,44,o),
+(10,-25,o),
+(10,-109,cs),
+(10,-191,o),
+(74,-235,o),
+(193,-235,cs)
 );
 },
 {
@@ -10440,6 +10615,94 @@ metricRight = g;
 userData = {
 KernOnName = g;
 };
+},
+{
+color = 9;
+glyphname = gbreve.ss01;
+kernLeft = g;
+kernRight = g;
+lastChange = "2026-11-18 11:24:47 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = g.ss01;
+},
+{
+pos = (50,0);
+ref = brevecomb;
+}
+);
+width = 427;
+}
+);
+},
+{
+color = 9;
+glyphname = gcircumflex.ss01;
+kernLeft = g;
+kernRight = g;
+lastChange = "2026-11-18 11:24:47 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = g.ss01;
+},
+{
+pos = (52,0);
+ref = circumflexcomb;
+}
+);
+width = 427;
+}
+);
+},
+{
+color = 9;
+glyphname = gcommaaccent.ss01;
+kernLeft = g;
+kernRight = g;
+lastChange = "2026-11-18 11:24:47 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = g.ss01;
+},
+{
+pos = (165,0);
+ref = commaturnedabovecomb;
+}
+);
+width = 427;
+}
+);
+},
+{
+color = 9;
+glyphname = gdotaccent.ss01;
+kernLeft = g;
+kernRight = g;
+lastChange = "2026-11-18 11:24:47 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = g.ss01;
+},
+{
+pos = (144,0);
+ref = dotaccentcomb;
+}
+);
+width = 427;
+}
+);
 },
 {
 color = 4;
@@ -10517,7 +10780,7 @@ color = 5;
 glyphname = g.ss02;
 kernLeft = g;
 kernRight = g;
-lastChange = "2026-07-02 07:22:11 +0000";
+lastChange = "2026-11-18 11:25:37 +0000";
 layers = (
 {
 anchors = (
@@ -10530,12 +10793,6 @@ name = top;
 pos = (248,475);
 }
 );
-backgroundImage = {
-imagePath = "Images/g.ss02-Regular.tif";
-locked = 1;
-pos = (-53,-281);
-scale = (1.6,1.6);
-};
 guides = (
 {
 angle = 180;
@@ -10653,6 +10910,94 @@ metricRight = g;
 userData = {
 KernOnName = g;
 };
+},
+{
+color = 9;
+glyphname = gbreve.ss02;
+kernLeft = g;
+kernRight = g;
+lastChange = "2026-11-18 11:24:21 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = g.ss02;
+},
+{
+pos = (53,0);
+ref = brevecomb;
+}
+);
+width = 526;
+}
+);
+},
+{
+color = 9;
+glyphname = gcircumflex.ss02;
+kernLeft = g;
+kernRight = g;
+lastChange = "2026-11-18 11:24:21 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = g.ss02;
+},
+{
+pos = (55,0);
+ref = circumflexcomb;
+}
+);
+width = 526;
+}
+);
+},
+{
+color = 9;
+glyphname = gcommaaccent.ss02;
+kernLeft = g;
+kernRight = g;
+lastChange = "2026-11-18 11:24:21 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = g.ss02;
+},
+{
+pos = (168,0);
+ref = commaturnedabovecomb;
+}
+);
+width = 526;
+}
+);
+},
+{
+color = 9;
+glyphname = gdotaccent.ss02;
+kernLeft = g;
+kernRight = g;
+lastChange = "2026-11-18 11:24:21 +0000";
+layers = (
+{
+layerId = m001;
+shapes = (
+{
+ref = g.ss02;
+},
+{
+pos = (147,0);
+ref = dotaccentcomb;
+}
+);
+width = 526;
+}
+);
 },
 {
 color = 4;
