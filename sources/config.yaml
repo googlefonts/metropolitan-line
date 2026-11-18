@@ -1,7 +1,7 @@
 sources:
   - MetropolitanLine.glyphs
+cleanUp: true
 buildOTF: true
 ttfaUseScript: true
 flattenComponents: true
 decomposeTransformedComponents: true
-cleanUp: true
